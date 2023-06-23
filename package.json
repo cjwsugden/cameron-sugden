@@ -2,7 +2,6 @@
   "name": "cameron-sugden",
   "private": false,
   "version": "0.0.0",
-  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",
