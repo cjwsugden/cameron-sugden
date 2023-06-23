@@ -1,0 +1,39 @@
+body::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+  background-color: rgb(15 23 42);
+  border: solid 3px transparent;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(2 6 23);
+  border-radius: 20px;
+  border: solid 3px transparent;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+.exp-img {
+  max-width: 8vw;
+  max-height: 8vw;
+}
+
+.child-container {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 500ms ease-in-out, opacity 500ms ease-in-out;
+}
+
+.child-container.visible {
+  opacity: 1;
+  max-height: 100%;
+}
