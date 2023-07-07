@@ -32,7 +32,10 @@ const Home = React.forwardRef((props, ref) => {
             src={linkedin}
           />
         </a>
-        <a href="#">
+        <a
+          href="https://docs.google.com/document/d/1No-ggsV60zX44q6GheYgLwRnrGVkKa5r/edit?usp=sharing&ouid=115294528645172828931&rtpof=true&sd=true"
+          target="_blank"
+        >
           <img
             className="transition duration-300 ease-in-out hover:brightness-0 hover:invert hover:scale-110"
             src={resume}
