@@ -33,7 +33,7 @@ const Home = React.forwardRef((props, ref) => {
           />
         </a>
         <a
-          href="https://docs.google.com/document/d/1No-ggsV60zX44q6GheYgLwRnrGVkKa5r/edit?usp=sharing&ouid=115294528645172828931&rtpof=true&sd=true"
+          href="https://docs.google.com/document/d/1SegqT8j6TOQcLH_Pny4Z3nS4jLVw8zVO/edit?usp=sharing&ouid=115294528645172828931&rtpof=true&sd=true"
           target="_blank"
         >
           <img
